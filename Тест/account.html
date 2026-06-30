@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личный кабинет | RaceManager</title>
+  <meta name="description" content="Личный кабинет участника RaceManager.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="account-page">
+  <header class="site-header">
+    <div class="header-top"><div class="container header-top__inner"><p>Официальная платформа чемпионатов</p><div class="header-top__links"><a href="#">Организаторам</a><a href="#">Регламент</a><a href="#">RU <span>⌄</span></a></div></div></div>
+    <div class="header-main"><div class="container header-main__inner">
+      <a class="logo" href="index.html" aria-label="RaceManager"><span class="logo__mark">R</span><span class="logo__text">RACE<span>MANAGER</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" aria-label="Основная навигация"><a href="index.html">Главная</a><a href="championships.html">Чемпионаты</a><a href="calendar.html">Календарь</a><a href="teams.html">Команды</a><a href="media.html">Медиа</a></nav>
+      <div class="header-actions"><a class="account-header-user" href="account.html"><span data-account-initials>RM</span><strong data-account-login>Профиль</strong></a></div>
+    </div></div>
+  </header>
+
+  <main class="account-main">
+    <section class="account-hero">
+      <div class="container account-hero__inner">
+        <div><span class="eyebrow">RaceManager ID</span><h1>Личный кабинет</h1><p>Управляйте профилем пилота, автомобилями и заявками на соревнования.</p></div>
+        <div class="account-hero__profile-wrap"><span class="account-role-badge account-role-badge--outside" data-account-profile-role-badge hidden>Роль</span><div class="account-hero__badge"><span data-account-initials>RM</span><div><small>Участник платформы</small><strong data-account-full-name>Пользователь RaceManager</strong></div></div></div>
+      </div>
+    </section>
+
+    <div class="container account-layout">
+      <aside class="account-sidebar">
+        <nav aria-label="Разделы личного кабинета">
+          <button class="is-active" type="button" data-account-tab="profile"><span>01</span> Профиль</button>
+          <button type="button" data-account-tab="vehicles"><span>02</span> Мои автомобили</button>
+          <button type="button" data-account-tab="applications"><span>03</span> Мои заявки</button>
+          <button type="button" data-account-tab="settings"><span>04</span> Настройки</button>
+        </nav>
+        <a class="account-organizer-create" href="CreateEvent.html" data-organizer-only hidden>Создать событие</a><button class="account-logout" type="button" data-account-logout>Выйти из аккаунта</button>
+      </aside>
+
+      <section class="account-content account-view is-active" data-account-view="profile">
+        <div class="account-welcome"><div><span class="eyebrow">Добро пожаловать</span><h2 data-account-greeting>Пилот</h2><p>Здесь собрана основная информация для участия в соревнованиях.</p></div><div class="account-welcome__actions"><a class="button button--red" href="calendar.html">Найти событие <span>→</span></a><a class="button button--dark" href="CreateEvent.html" data-organizer-only hidden>Создать событие</a></div></div>
+
+        <div class="account-role-tools" data-organizer-only hidden><article><span class="eyebrow eyebrow--red">Organizer panel</span><h3>Управление событиями</h3><p>Создавайте чемпионаты, тренировки и трек-дни, которые будут опубликованы в календаре.</p><a class="button button--red button--small" href="CreateEvent.html">Создать событие <span>→</span></a></article></div>
+        <div class="account-role-tools account-role-tools--judge" data-judge-only hidden>
+          <article><div><span class="eyebrow eyebrow--red">Судья</span><h3>Судейская зона</h3><p>Вносите результаты пилотов, добавляйте штрафы и фиксируйте дисквалификацию участников.</p></div><a class="button button--dark button--small" href="calendar.html">К расписанию</a></article>
+          <section class="judge-workspace account-panel">
+            <div class="account-panel__head"><div><span class="eyebrow eyebrow--red">Race control</span><h3>Редактирование результатов</h3></div><span data-judge-save-message hidden></span></div>
+            <form class="judge-result-form" data-judge-result-form>
+              <label><span>Событие / этап</span><select name="eventId" data-judge-event-select required></select></label>
+              <label><span>Пилот из заявок</span><select name="participantId" data-judge-participant-select><option value="">Выберите пилота</option></select></label>
+              <label><span>ФИО пилота</span><input type="text" name="pilotName" placeholder="ФИО пилота" required></label>
+              <label><span>Позиция</span><input type="number" name="position" min="1" placeholder="1"></label>
+              <label><span>Время круга / заезда</span><input type="text" name="lapTime" placeholder="01:12.345"></label>
+              <label><span>Лучший круг</span><input type="text" name="bestLap" placeholder="01:10.221"></label>
+              <label><span>Штраф</span><input type="text" name="penalty" placeholder="+5 сек / предупреждение"></label>
+              <label><span>Статус</span><select name="status"><option>Финишировал</option><option>Сход</option><option>Дисквалификация</option><option>На проверке</option></select></label>
+              <label class="judge-result-form__wide"><span>Комментарий судьи</span><textarea name="comment" placeholder="Причина штрафа, решение судьи или примечание"></textarea></label>
+              <button class="button button--red" type="submit">Сохранить результат <span>→</span></button>
+            </form>
+            <div class="judge-results-table-wrap"><table class="judge-results-table"><thead><tr><th>Поз.</th><th>Пилот</th><th>Время</th><th>Лучший круг</th><th>Штраф</th><th>Статус</th></tr></thead><tbody data-judge-results><tr><td colspan="6">Выберите событие, чтобы увидеть результаты.</td></tr></tbody></table></div>
+          </section>
+        </div>
+
+        <div class="account-stats account-stats--expanded">
+          <article><span>Позиция в рейтинге на сайте</span><strong data-account-stat="ranking">1</strong><small>Общий рейтинг участников</small></article>
+          <article><span>Очки зачёта</span><strong class="account-stat--green" data-account-stat="points">0</strong><small>Текущий сезон</small></article>
+          <article><span>Гонки</span><strong data-account-stat="races">0</strong><small>За всё время</small></article>
+          <article><span>Победы</span><strong data-account-stat="wins">0</strong><small>Первые места</small></article>
+          <article><span>Подиумы</span><strong data-account-stat="podiums">0</strong><small>Финиши в топ-3</small></article>
+          <article><span>Лучший результат</span><strong data-account-stat="bestResult">—</strong><small>Лучший финиш</small></article>
+        </div>
+
+        <div class="account-grid">
+          <article class="account-panel account-profile-card">
+            <div class="account-panel__head"><div><span class="eyebrow">Профиль пилота</span><h3>Личные данные</h3></div><button type="button">Редактировать</button></div>
+            <dl class="account-details">
+              <div><dt>Логин</dt><dd data-account-login>—</dd></div><div><dt>Email</dt><dd data-account-email>—</dd></div>
+              <div><dt>Фамилия</dt><dd data-account-last-name>—</dd></div><div><dt>Имя</dt><dd data-account-first-name>—</dd></div>
+              <div><dt>Отчество</dt><dd data-account-middle-name>—</dd></div><div><dt>Телефон</dt><dd data-account-phone>—</dd></div>
+              <div><dt>Дата рождения</dt><dd data-account-birth-date>—</dd></div><div><dt>Роль</dt><dd data-account-role>Пользователь</dd></div>
+            </dl>
+          </article>
+
+          <article class="account-panel account-garage-card">
+            <div class="account-panel__head"><div><span class="eyebrow">Мои автомобили</span><h3>Основной автомобиль</h3></div><button type="button" data-open-vehicle-modal>Добавить</button></div>
+            <div class="account-car"><div class="account-car__visual"><span>RM</span><strong data-account-car>Автомобиль не указан</strong></div><p>Добавьте автомобиль, фотографии и документы для быстрой регистрации на этапы.</p></div>
+          </article>
+        </div>
+
+        <article class="account-panel account-championships">
+          <div class="account-panel__head"><div><span class="eyebrow">История участия</span><h3>Чемпионаты</h3></div><a href="championships.html">Все чемпионаты →</a></div>
+          <div class="account-championship-list" data-account-championships><div class="account-empty-state"><strong>История чемпионатов пока пуста</strong><p>После участия в соревновании здесь появятся результаты и итоговая позиция.</p></div></div>
+        </article>
+
+        <article class="account-panel account-team-panel">
+          <div class="account-panel__head"><div><span class="eyebrow">Командный зачёт</span><h3>Моя команда</h3></div></div>
+          <div class="account-team-empty" data-account-team><div class="account-team-empty__mark">RM</div><div><strong>Пилот пока не состоит в команде</strong><p>После приглашения от менеджера здесь появится карточка команды и её результаты.</p></div></div>
+        </article>
+
+        <article class="account-panel account-events">
+          <div class="account-panel__head"><div><span class="eyebrow">Ближайшие события</span><h3>Открыта регистрация</h3></div><a href="calendar.html">Весь календарь →</a></div>
+          <div class="account-event"><time><b>27</b><span>ИЮН</span></time><div><small>Betera Drift · Гродно</small><strong>Betera Гран-При Гродно 2026</strong><p>Регистрация пилотов открыта до 24 июня.</p></div><a class="button button--red button--small" href="calendar.html">Подать заявку</a></div>
+          <div class="account-event"><time><b>12</b><span>ИЮЛ</span></time><div><small>22RT · Минск</small><strong>Трек-день 22RT</strong><p>Тренировочная сессия для пилотов разных классов.</p></div><a class="button button--dark button--small" href="calendar.html">Подробнее</a></div>
+        </article>
+      </section>
+
+      <section class="account-content account-view" data-account-view="vehicles" hidden>
+        <div class="account-welcome"><div><span class="eyebrow">Гараж пилота</span><h2>Мои автомобили</h2><p>Добавляйте автомобили и храните технические характеристики для регистрации на соревнования.</p></div><button class="button button--red" type="button" data-open-vehicle-modal>Добавить автомобиль</button></div>
+        <div class="account-vehicle-grid" data-account-vehicles><div class="account-empty-state account-empty-state--large"><strong>У вас пока нет добавленных автомобилей</strong><p>Добавьте первый автомобиль, чтобы использовать его при подаче заявки на событие.</p><button class="button button--red button--small" type="button" data-open-vehicle-modal>Добавить автомобиль</button></div></div>
+      </section>
+
+      <section class="account-content account-view" data-account-view="applications" hidden>
+        <div class="account-welcome"><div><span class="eyebrow">Участие в соревнованиях</span><h2>Мои заявки</h2><p>Здесь отображаются события, на которые вы зарегистрировались.</p></div><a class="button button--red" href="calendar.html">Перейти к календарю</a></div>
+        <div class="account-applications" data-account-applications><div class="account-empty-state account-empty-state--large"><strong>У вас нету активных заявок на участие.</strong><p>Выберите подходящее событие в календаре и подайте заявку.</p><a class="button button--red button--small" href="calendar.html">Перейти к календарю</a></div></div>
+      </section>
+
+      <section class="account-content account-view" data-account-view="settings" hidden>
+        <div class="account-welcome"><div><span class="eyebrow">Настройки аккаунта</span><h2>Личные данные</h2><p>Изменяйте аватар, контактную информацию и ФИО пользователя.</p></div></div>
+        <form class="account-settings-form account-panel" data-account-settings-form>
+          <div class="account-settings-avatar"><div class="account-avatar-preview" data-account-avatar-preview><span data-account-initials>RM</span></div><div><strong>Аватар профиля</strong><p>Загрузите изображение JPG или PNG.</p><label class="button button--dark button--small">Загрузить аватар<input type="file" name="avatar" accept="image/png,image/jpeg" hidden></label></div></div>
+          <div class="account-settings-fields"><label><span>Фамилия</span><input type="text" name="lastName" required></label><label><span>Имя</span><input type="text" name="firstName" required></label><label><span>Отчество</span><input type="text" name="middleName"></label><label><span>Почта</span><input type="email" name="email" required></label><label><span>Номер телефона</span><input type="tel" name="phone" required></label></div>
+          <div class="account-settings-actions"><button class="button button--red" type="submit">Сохранить изменения</button><span data-settings-message hidden></span></div>
+        </form>
+      </section>
+
+    </div>
+  </main>
+
+  <div class="account-modal" data-vehicle-modal aria-hidden="true">
+    <div class="account-modal__backdrop" data-close-vehicle-modal></div>
+    <div class="account-modal__dialog"><button class="account-modal__close" type="button" data-close-vehicle-modal aria-label="Закрыть">×</button><div class="account-modal__head"><span class="eyebrow">Гараж</span><h2>Добавить автомобиль</h2></div>
+      <form class="vehicle-form" data-vehicle-form>
+        <label class="vehicle-image-field"><span>Изображение автомобиля</span><input type="file" name="image" accept="image/png,image/jpeg" required></label>
+        <div class="vehicle-form__grid"><label><span>Название автомобиля</span><input type="text" name="name" placeholder="Например, BMW E36" required></label><label><span>Тип</span><input type="text" name="type" placeholder="Дрифт / Кольцо / Ралли"></label><label><span>Мощность, л.с.</span><input type="number" name="power" min="1"></label><label><span>Вес, кг</span><input type="number" name="weight" min="1"></label><label><span>Удельная мощность, л.с./т.</span><input type="number" name="powerToWeight" min="0" step="0.1"></label><label><span>Привод</span><select name="drive"><option value="">Выберите привод</option><option>Задний</option><option>Передний</option><option>Полный</option></select></label><label><span>Тип двигателя</span><input type="text" name="engineType" placeholder="Бензиновый / Турбо"></label><label><span>Модель двигателя</span><input type="text" name="engineModel"></label><label><span>Объем, см³</span><input type="number" name="engineVolume" min="1"></label><label><span>Крутящий момент, Нм</span><input type="number" name="torque" min="1"></label></div>
+        <button class="button button--red" type="submit">Добавить автомобиль</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="account-modal" data-vehicle-details-modal aria-hidden="true"><div class="account-modal__backdrop" data-close-vehicle-details></div><div class="account-modal__dialog account-modal__dialog--details"><button class="account-modal__close" type="button" data-close-vehicle-details aria-label="Закрыть">×</button><div data-vehicle-details></div></div></div>
+</body>
+</html>

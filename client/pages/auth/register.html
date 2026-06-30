@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация | RaceManager ID</title>
+  <meta name="description" content="Создание аккаунта RaceManager ID.">
+  <link rel="icon" type="image/png" href="/public/RaceManagerLogo.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css?v=20260628-6">
+  <script src="/script.js?v=20260629-1" defer></script>
+</head>
+<body class="auth-page register-page">
+  <div class="auth-page__background"></div>
+  <div class="auth-toast" data-auth-toast role="status" aria-live="polite"></div>
+  <header class="auth-header">
+    <a class="auth-back" href="/pages/auth/login.html" data-register-i18n="back">← Вернуться ко входу</a>
+    <div class="language-selector">
+      <button class="language-selector__button" type="button" aria-expanded="false" aria-haspopup="true"><span data-language-flag>🇷🇺</span><strong data-language-label>Русский</strong><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9Z"></path></svg></button>
+      <div class="language-selector__menu" hidden><button type="button" data-language="ru" data-flag="🇷🇺"><span>🇷🇺</span> Русский</button><button type="button" data-language="en" data-flag="🇺🇸"><span>🇺🇸</span> English</button><button type="button" data-language="de" data-flag="🇩🇪"><span>🇩🇪</span> Deutsch</button><button type="button" data-language="pl" data-flag="🇵🇱"><span>🇵🇱</span> Polski</button></div>
+    </div>
+  </header>
+
+  <main class="auth-main register-main">
+    <section class="auth-card register-card" aria-labelledby="register-title">
+      <div class="register-progress" aria-label="Прогресс регистрации"><span class="is-active" data-progress-step="1"></span><span data-progress-step="2"></span><span data-progress-step="3"></span></div>
+      <a class="auth-brand" href="/index.html" aria-label="RaceManager ID"><span class="auth-brand__mark">R</span><span class="auth-brand__name">RACE<span>MANAGER</span></span><b>ID</b></a>
+      <h1 id="register-title" data-register-i18n="title">Создание нового аккаунта</h1>
+      <p class="auth-card__lead" data-register-i18n="lead">Заполните данные для регистрации в RaceManager.</p>
+
+      <form class="register-form" action="#" method="post" novalidate>
+        <fieldset class="register-step is-active" data-register-step="1">
+          <legend data-register-i18n="step1">Шаг 1. Данные аккаунта</legend>
+          <label class="auth-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg><input type="text" name="login" minlength="4" required data-register-placeholder="login" placeholder="Введите логин"></label>
+          <label class="auth-field"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="m4 7 8 6 8-6"></path></svg><input type="email" name="email" required data-register-placeholder="email" placeholder="Введите email"></label>
+          <p class="register-hint" data-register-i18n="loginHint">Минимум 4 символа в логине</p>
+        </fieldset>
+
+        <fieldset class="register-step" data-register-step="2">
+          <legend data-register-i18n="step2">Шаг 2. Безопасность</legend>
+          <label class="auth-field"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg><input type="password" name="registerPassword" minlength="6" required data-register-placeholder="password" placeholder="Введите пароль"></label>
+          <label class="auth-field"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg><input type="password" name="confirmPassword" minlength="6" required data-register-placeholder="confirmPassword" placeholder="Повторите пароль"></label>
+          <label class="auth-field"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M7 3v4M17 3v4M3 10h18"></path></svg><input type="date" name="birthDate" required aria-label="Дата рождения"></label>
+          <p class="register-hint" data-register-i18n="passwordHint">Пароль должен содержать минимум 6 символов</p>
+        </fieldset>
+
+        <fieldset class="register-step" data-register-step="3">
+          <legend data-register-i18n="step3">Шаг 3. Данные пилота</legend>
+          <div class="register-name-grid"><label class="auth-field"><input type="text" name="lastName" required data-register-placeholder="lastName" placeholder="Фамилия"></label><label class="auth-field"><input type="text" name="firstName" required data-register-placeholder="firstName" placeholder="Имя"></label></div>
+          <label class="auth-field"><input type="text" name="middleName" required data-register-placeholder="middleName" placeholder="Отчество"></label>
+          <label class="auth-field"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h3l2 5-2 1a14 14 0 0 0 5 5l1-2 5 2v3a3 3 0 0 1-3 3C10 20 4 14 4 6a3 3 0 0 1 3-3Z"></path></svg><input type="tel" name="phone" required data-register-placeholder="phone" placeholder="+375 25 123 45 67"></label>
+          <label class="auth-field"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 16h18M5 16l2-6h10l2 6M8 10l2-3h4l2 3M7 16a2 2 0 1 0 4 0m2 0a2 2 0 1 0 4 0"></path></svg><input type="text" name="car" data-register-placeholder="car" placeholder="Автомобиль (необязательно)"></label>
+          <p class="register-hint" data-register-i18n="carHint">Автомобиль можно добавить позже в личном кабинете.</p>
+        </fieldset>
+
+        <p class="register-error" data-register-error hidden></p>
+        <div class="register-actions"><button class="register-back-button" type="button" data-register-back data-register-i18n="previous">Назад</button><button class="register-next-button" type="button" data-register-next data-register-i18n="next">Продолжить</button><button class="register-submit-button" type="submit" data-register-submit data-register-i18n="finish" hidden>Зарегистрироваться</button></div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

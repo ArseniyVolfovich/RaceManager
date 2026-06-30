@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseAppHost>false</UseAppHost>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RaceManager.Application\RaceManager.Application.csproj" />
+    <ProjectReference Include="..\RaceManager.Infrastructure\RaceManager.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

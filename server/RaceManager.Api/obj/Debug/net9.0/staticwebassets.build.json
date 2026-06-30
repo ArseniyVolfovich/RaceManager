@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "gC7CXLffVTg3ZThJa7CmM5Fq4h3KAV71+rWkPRDA8FM=",
+  "Source": "RaceManager.Api",
+  "BasePath": "_content/RaceManager.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

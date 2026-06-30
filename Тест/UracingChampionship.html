@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URacing RaceWars 2026 | RaceManager</title>
+  <meta name="description" content="Страница кубка URacing RaceWars 2026: расписание этапов, тайминг, трасса и таблица участников.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="uracing-championship-page">
+  <header class="site-header">
+    <div class="header-top"><div class="container header-top__inner"><p>Официальная платформа чемпионатов</p><div class="header-top__links"><a href="#">Организаторам</a><a href="#">Регламент</a><a href="#">RU <span>⌄</span></a></div></div></div>
+    <div class="header-main"><div class="container header-main__inner"><a class="logo" href="index.html" aria-label="RaceManager"><span class="logo__mark">R</span><span class="logo__text">RACE<span>MANAGER</span></span></a><button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav" aria-label="Основная навигация"><a href="index.html">Главная</a><a class="active" href="championships.html">Чемпионаты</a><a href="calendar.html">Календарь</a><a href="teams.html">Команды</a><a href="media.html">Медиа</a></nav><div class="header-actions"><button class="icon-button" type="button" aria-label="Поиск"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 5 5"></path></svg></button><a class="button button--white button--small" href="login.html">Войти</a></div></div></div>
+  </header>
+  <div class="teams-mega" aria-label="Команды RaceManager"><div class="container teams-mega__inner"><a class="team-preview team-preview--betera" href="BeteraTeam.html"><div class="team-preview__head"><span><img src="public/BeteraLogo.png" alt=""></span><strong>Betera Drift</strong></div><img class="team-preview__car" src="public/BeteraCarsNormalized.png" alt="Автомобиль Betera Drift"></a><a class="team-preview team-preview--drp" href="DriftRacingParkTeam.html"><div class="team-preview__head"><span><img src="public/DriftRacingParkLogo.png" alt=""></span><strong>Drift Racing Park</strong></div><img class="team-preview__car" src="public/DritRacingParkCarsLogo.png" alt="Автомобиль Drift Racing Park"></a><a class="team-preview team-preview--blockchain" href="BlockchainSportsTeam.html"><div class="team-preview__head"><span><img src="public/BlockchainLogo.png" alt=""></span><strong>Blockchain Sports</strong></div><img class="team-preview__car" src="public/BlockchainCarsNormalized.png" alt="Автомобиль Blockchain Sports"></a><a class="team-preview team-preview--lowbudget" href="LowBudgetTeam.html"><div class="team-preview__head"><span><img src="public/LowBudgetLogo.png" alt=""></span><strong>Low Budget Drift</strong></div><img class="team-preview__car" src="public/LowBudgetCarsNormalized.png" alt="Автомобиль Low Budget Drift"></a></div></div>
+
+  <main>
+    <section class="betera-championship-hero uracing-championship-hero">
+      <img class="betera-championship-hero__image" src="public/UracingBanner.png" alt="URacing RaceWars 2026">
+      <div class="betera-championship-hero__overlay"></div>
+      <div class="container betera-championship-hero__content">
+        <div><span class="tag tag--uracing">Time-Attack · RaceWars</span><h1><span>URACING</span> RACEWARS 2026</h1><p>Кубок по тайм-аттаку: чистый круг, точность траектории и борьба с секундомером на разных трассах сезона.</p><div class="betera-championship-hero__actions"><a class="button button--uracing" href="#schedule">Расписание</a><a class="button button--glass" href="#results">Турнирная таблица</a></div></div>
+        <div class="betera-championship-hero__stats"><div><strong>6</strong><span>этапов сезона</span></div><div><strong>TIME</strong><span>дисциплина Time-Attack</span></div><div><strong>07 ИЮН</strong><span>2 этап · Стайки</span></div></div>
+      </div>
+    </section>
+
+    <section class="section betera-championship-about"><div class="container betera-championship-about__grid"><div><span class="eyebrow eyebrow--uracing">О кубке</span><h2>RaceWars: борьба за лучший круг</h2></div><div><p>URacing RaceWars 2026 — серия тайм-аттак этапов для пилотов разных классов. Побеждает не контактная борьба, а стабильность, подготовка автомобиля и способность собрать быстрый круг.</p><p>На странице собраны этапы сезона, подробный тайминг соревновательного дня, конфигурация трассы Стайки и таблица заявленных участников.</p></div></div></section>
+
+    <section class="section betera-championship-schedule" id="schedule"><div class="container"><div class="section-heading"><div><span class="eyebrow eyebrow--uracing">Календарь сезона</span><h2>Расписание этапов</h2></div><a class="text-link" href="calendar.html">Весь календарь <span>→</span></a></div><div class="betera-stage-list">
+      <article class="betera-stage betera-stage--complete"><div class="betera-stage__number">01</div><time datetime="2026-05-24"><b>24</b><span>мая</span></time><div><span>1 этап кубка RaceWars</span><h3>Брест Альянс</h3><p>09:00–18:00 · Time-Attack</p></div><strong>Завершено</strong></article>
+      <article class="betera-stage betera-stage--next"><div class="betera-stage__number">02</div><time datetime="2026-06-07"><b>07</b><span>июня</span></time><div><span>2 этап кубка RaceWars</span><h3>Стайки</h3><p>08:30–19:30 · Time-Attack</p></div><strong>Предстоит</strong></article>
+      <article class="betera-stage"><div class="betera-stage__number">03</div><time datetime="2026-07-05"><b>05</b><span>июля</span></time><div><span>3 этап кубка RaceWars</span><h3>Гродно</h3><p>09:00–18:00 · Time-Attack</p></div><strong>Предстоит</strong></article>
+      <article class="betera-stage"><div class="betera-stage__number">04</div><time datetime="2026-07-18"><b>18</b><span>июля</span></time><div><span>4 этап кубка RaceWars</span><h3>Смоленск</h3><p>09:00–18:00 · Time-Attack</p></div><strong>Предстоит</strong></article>
+      <article class="betera-stage"><div class="betera-stage__number">05</div><time datetime="2026-08-22"><b>22</b><span>августа</span></time><div><span>5 этап кубка RaceWars</span><h3>Октябрьский</h3><p>09:00–18:00 · Time-Attack</p></div><strong>Предстоит</strong></article>
+      <article class="betera-stage"><div class="betera-stage__number">06</div><time datetime="2026-09-13"><b>13</b><span>сентября</span></time><div><span>6 этап кубка RaceWars</span><h3>Стайки</h3><p>09:00–15:30 · Time-Attack</p></div><strong>Финал</strong></article>
+    </div></div></section>
+
+    <section class="section uracing-timing-section"><div class="container"><div class="section-heading section-heading--dark"><div><span class="eyebrow eyebrow--uracing">7 июня</span><h2>Тайминг соревновательного дня</h2></div><p>Подробное расписание используется как базовый формат для следующих этапов</p></div><div class="uracing-timing-list">
+      <div><time>08:00–09:50</time><span>Административный, медицинский контроль</span></div>
+      <div><time>08:10–09:50</time><span>Технический контроль, маркировка шин</span></div>
+      <div><time>10:00–10:20</time><span>Брифинг</span></div>
+      <div><time>10:40–11:00</time><span>Квалификационные заезды, попытка №1</span></div>
+      <div><time>11:40–12:00</time><span>Квалификационные заезды, попытка №2</span></div>
+      <div><time>12:50–13:10</time><span>Квалификационные заезды, попытка №3</span></div>
+      <div><time>13:10–13:30</time><span>Открытие соревнований</span></div>
+      <div><time>13:20–14:00</time><span>Перерыв</span></div>
+      <div><time>14:20–14:40</time><span>Квалификационные заезды, попытка №4</span></div>
+      <div><time>15:20–16:00</time><span>Квалификационные заезды, попытки №5–6</span></div>
+      <div><time>16:00–16:30</time><span>Закрытый парк. Публикация предварительных результатов</span></div>
+      <div><time>16:40–17:20</time><span>Финальные заезды ТОП 5</span></div>
+      <div><time>17:20–17:50</time><span>Закрытый парк. Публикация предварительных результатов</span></div>
+      <div><time>18:20–18:40</time><span>Торжественное награждение</span></div>
+    </div><div class="betera-grodno-track uracing-track"><img src="public/StaykiTrack.jpg" alt="Конфигурация трассы Стайки для URacing RaceWars"></div></div></section>
+
+    <section class="section betera-championship-results" id="results"><div class="container"><div class="section-heading section-heading--dark"><div><span class="eyebrow eyebrow--uracing">Турнирная таблица</span><h2>Заявленные спортсмены</h2></div><p>ФИО, автомобиль, класс и текущие очки сезона</p></div><div class="betera-results-table-wrap"><table class="betera-results-table uracing-results-table"><thead><tr><th>Место</th><th>ФИО</th><th>Автомобиль</th><th>Класс</th><th>Очки</th></tr></thead><tbody>
+      <tr><td><b>1</b></td><td>Мышковец Артём</td><td>Daihatsu Charada G100</td><td>LIGHT</td><td><strong>95</strong></td></tr>
+      <tr><td><b>2</b></td><td>Змитрачёнок Александр</td><td>Honda Fit 3</td><td>LIGHT</td><td><strong>89</strong></td></tr>
+      <tr><td><b>3</b></td><td>Ивоченко Юрий</td><td>Citroen</td><td>LIGHT</td><td><strong>84</strong></td></tr>
+      <tr><td><b>4</b></td><td>Шимаковский Константин</td><td>Honda Civic</td><td>LIGHT</td><td><strong>80</strong></td></tr>
+      <tr><td><b>5</b></td><td>Тарасов Владислав</td><td>Mazda MX-5 NC</td><td>LIGHT</td><td><strong>76</strong></td></tr>
+      <tr><td><b>6</b></td><td>Ячник Евгений</td><td>Mazda 3</td><td>LIGHT</td><td><strong>72</strong></td></tr>
+      <tr><td><b>7</b></td><td>Ильин Андрей</td><td>Toyota GR86</td><td>STREET</td><td><strong>68</strong></td></tr>
+      <tr><td><b>8</b></td><td>Телегин Андрей</td><td>Mazda MX-5</td><td>STREET</td><td><strong>64</strong></td></tr>
+      <tr><td><b>9</b></td><td>Пузиков Андрей</td><td>Honda Civic EK20</td><td>STREET</td><td><strong>61</strong></td></tr>
+      <tr><td><b>10</b></td><td>Данилова Ирина</td><td>Honda Prelude</td><td>STREET</td><td><strong>58</strong></td></tr>
+      <tr><td><b>11</b></td><td>Шпаковский Роман</td><td>Mazda MX-5</td><td>STREET</td><td><strong>55</strong></td></tr>
+      <tr><td><b>12</b></td><td>Иодо Кирилл</td><td>Mazda MX-5 ND</td><td>STREET</td><td><strong>52</strong></td></tr>
+      <tr><td><b>13</b></td><td>Бейнарович Виктория</td><td>BMW</td><td>STREET-PRO</td><td><strong>49</strong></td></tr>
+      <tr><td><b>14</b></td><td>Рожко Виталий</td><td>Civic FK7</td><td>STREET</td><td><strong>46</strong></td></tr>
+      <tr><td><b>15</b></td><td>Ячник Александр</td><td>Mazda RX-8</td><td>STREET-PRO</td><td><strong>43</strong></td></tr>
+      <tr><td><b>16</b></td><td>Эмпортуло Никита</td><td>Honda Civic EK24</td><td>STREET-PRO</td><td><strong>40</strong></td></tr>
+      <tr><td><b>17</b></td><td>Грецский Сергей</td><td>BMW 330i</td><td>STREET-PRO</td><td><strong>37</strong></td></tr>
+      <tr><td><b>18</b></td><td>Саковский Евгений</td><td>BMW 230xi</td><td>STREET-PRO</td><td><strong>34</strong></td></tr>
+      <tr><td><b>19</b></td><td>Петровский Максим</td><td>Mini JCW GP</td><td>RACE</td><td><strong>31</strong></td></tr>
+      <tr><td><b>20</b></td><td>Коновальщик Алексей</td><td>Subaru Impreza</td><td>RACE</td><td><strong>28</strong></td></tr>
+      <tr><td><b>21</b></td><td>Куделька Алексей</td><td>Mazda MX-5</td><td>RACE</td><td><strong>26</strong></td></tr>
+      <tr><td><b>22</b></td><td>Тимошкин Артём</td><td>SUBARU WRX</td><td>RACE</td><td><strong>24</strong></td></tr>
+      <tr><td><b>23</b></td><td>Захаренко Валерий</td><td>Mini Cooper S (R53)</td><td>RACE</td><td><strong>22</strong></td></tr>
+      <tr><td><b>24</b></td><td>Мезит Дмитрий</td><td>Subaru Impreza WRX STI</td><td>RACE</td><td><strong>20</strong></td></tr>
+      <tr><td><b>25</b></td><td>Тимохов Виталий</td><td>Porsche Cayman 718 S 2</td><td>UNLIMITED</td><td><strong>18</strong></td></tr>
+      <tr><td><b>26</b></td><td>Щедрик Евгений</td><td>Peugeot 205 TA</td><td>UNLIMITED</td><td><strong>16</strong></td></tr>
+      <tr><td><b>27</b></td><td>Кручинин Алексей</td><td>Эстония 21</td><td>UNLIMITED</td><td><strong>14</strong></td></tr>
+      <tr><td><b>28</b></td><td>Пасынков Алексей</td><td>Honda RS2000 ZF</td><td>UNLIMITED</td><td><strong>12</strong></td></tr>
+      <tr><td><b>29</b></td><td>Полунченко Владислав</td><td>Porsche 911 4 GTS</td><td>UNLIMITED</td><td><strong>10</strong></td></tr>
+      <tr><td><b>30</b></td><td>Игорь Семашко</td><td>Nissan</td><td>RACE</td><td><strong>8</strong></td></tr>
+    </tbody></table></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="logo logo--footer" href="index.html"><span class="logo__mark">R</span><span class="logo__text">RACE<span>MANAGER</span></span></a><div class="footer-socials" aria-label="Социальные сети"><a href="#" aria-label="YouTube"><img class="footer-socials__icon footer-socials__icon--youtube" src="public/youtube.png" alt=""></a><a href="#" aria-label="Instagram"><img class="footer-socials__icon" src="public/instagram.png" alt=""></a><a href="#" aria-label="Facebook"><img class="footer-socials__icon footer-socials__icon--facebook" src="public/facebook.png" alt=""></a><a href="#" aria-label="X"><img class="footer-socials__icon" src="public/x.png" alt=""></a></div></div><div class="footer-nav"><div><h4>RaceManager</h4><a href="championships.html">Чемпионаты</a><a href="calendar.html">Календарь</a><a href="teams.html">Команды</a></div><div><h4>Медиа</h4><a href="media.html">Новости</a><a href="media.html">Видео</a><a href="media.html">Фотогалерея</a></div><div><h4>Участникам</h4><a href="#">Регистрация</a><a href="#">Регламент</a><a href="#">Поддержка</a></div></div></div><div class="container footer-bottom"><span>© 2026 RaceManager</span><span>Платформа автоспортивных чемпионатов</span></div></footer>
+</body>
+</html>

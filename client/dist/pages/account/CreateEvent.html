@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Создать событие | RaceManager</title>
+  <meta name="description" content="Создание чемпионата, тренировки или трек-дня организатором RaceManager.">
+  <link rel="icon" type="image/png" href="/assets/RaceManagerLogo-DPZ0vkLY.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <script src="/script.js?v=20260629-1" defer></script>
+  <link rel="stylesheet" crossorigin href="/assets/styles-fmjkbC7h.css">
+</head>
+<body class="create-event-page">
+  <header class="site-header">
+    <div class="header-top"><div class="container header-top__inner"><p>Официальная платформа чемпионатов</p><div class="header-top__links"><a href="/public/regulations/RaceManager.pdf" target="_blank" rel="noopener">FAQ</a><a href="/public/regulations/reglament-organisator.pdf" target="_blank" rel="noopener">Организаторам</a><button class="language-trigger" type="button" data-language-trigger><span data-current-language>RU</span> <span>⌄</span></button></div></div></div>
+    <div class="header-main"><div class="container header-main__inner"><a class="logo" href="/index.html" aria-label="RaceManager"><span class="logo__mark">R</span><span class="logo__text">RACE<span>MANAGER</span></span></a><button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav" aria-label="Основная навигация"><a href="/index.html">Главная</a><a href="/championships.html">Чемпионаты</a><a href="/calendar.html">Календарь</a><a href="/teams.html">Команды</a><a href="/media.html">Медиа</a></nav><div class="header-actions"><a class="button button--white button--small" href="/pages/account/account.html">Кабинет</a></div></div></div>
+  </header>
+
+  <main>
+    <section class="create-event-hero">
+      <div class="container create-event-hero__inner">
+        <div><span class="eyebrow eyebrow--red">Organizer tools</span><h1>Создать событие</h1><p>Настройте чемпионат, тренировку или трек-день. После создания событие появится в календаре RaceManager.</p></div>
+        <a class="button button--white" href="/pages/account/account.html">← В кабинет</a>
+      </div>
+    </section>
+
+    <section class="section create-event-section">
+      <div class="container create-event-layout">
+        <aside class="create-event-side">
+          <div class="create-event-side__card"><span class="eyebrow eyebrow--red">Параметры события</span><h2>Комната организатора</h2><p>Заполните основные параметры, загрузите изображения и добавьте этапы чемпионата.</p></div>
+          <button class="create-event-tab is-active" type="button" data-create-tab="main">01 · Основное</button>
+          <button class="create-event-tab" type="button" data-create-tab="media">02 · Изображения</button>
+          <button class="create-event-tab" type="button" data-create-tab="team">03 · Команда</button>
+        </aside>
+
+        <form class="create-event-form" data-create-event-form>
+          <fieldset class="create-event-view is-active" data-create-view="main">
+            <legend>Основные параметры</legend>
+            <div class="create-event-grid">
+              <label><span>Тип события</span><select name="eventType" data-event-type required><option>Чемпионат</option><option>Тренировка</option><option>Трек-День</option></select></label>
+              <label><span>Название события</span><input type="text" name="name" placeholder="Например, Race Wars 2026" required></label>
+              <label><span>Дисциплина</span><select name="discipline" data-event-discipline required><option>Дрифт</option><option>Дрэг-Рейсинг</option><option>Тайм-Аттак</option><option>Кольцо</option><option>Ралли</option><option>Симрейсинг</option></select></label>
+              <label><span>Количество участников</span><input type="number" name="participants" min="1" placeholder="32" required></label>
+              <label><span>Трасса</span><input type="text" name="track" placeholder="Автодром / город / аэропорт" required></label>
+              <label><span data-discipline-distance-label>Дистанция, м</span><input type="number" name="distance" min="1" placeholder="402"></label>
+              <label><span>Дата проведения события</span><input type="date" name="eventDate" required></label>
+              <label><span>Конфигурация трека</span><input type="file" name="trackConfig" accept="image/png,image/jpeg"></label>
+            </div>
+
+            <div class="create-event-stages" data-championship-stages>
+              <div class="create-event-stages__head"><div><span class="eyebrow eyebrow--red">Championship stages</span><h3>Этапы чемпионата</h3></div><button class="button button--dark button--small" type="button" data-add-stage>Добавить этап</button></div>
+              <div data-stage-list>
+                <div class="create-event-stage-row"><label><span>Название этапа</span><input type="text" name="stageName" placeholder="1 этап"></label><label><span>Дата этапа</span><input type="date" name="stageDate"></label><label class="create-event-stage-row__wide"><span>Вводная информация</span><textarea name="stageIntro" placeholder="Краткое описание этапа, место проведения, особенности регистрации"></textarea></label><label><span>Статус регистрации</span><select name="stageRegistrationStatus"><option>Регистрация открыта</option><option>Скоро</option><option>Регистрация закрыта</option><option>Лист ожидания</option></select></label></div>
+              </div>
+              <div class="create-event-standings">
+                <div class="create-event-stages__head"><div><span class="eyebrow eyebrow--red">Championship standings</span><h3>Таблицы зачета</h3></div></div>
+                <div class="create-event-standings__grid">
+                  <article><h4>Личный зачет пилотов</h4><table><thead><tr><th>Место</th><th>Пилот</th><th>Этапы</th><th>Итог</th></tr></thead><tbody><tr><td colspan="4">Пилоты появятся после регистрации на этапы.</td></tr></tbody></table></article>
+                  <article><h4>Командный зачет</h4><table><thead><tr><th>Место</th><th>Команда</th><th>Этапы</th><th>Итог</th></tr></thead><tbody><tr><td colspan="4">Команды появятся после регистрации пилотов.</td></tr></tbody></table></article>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="create-event-view" data-create-view="media" hidden>
+            <legend>Изображения события</legend>
+            <div class="create-event-grid"><label><span>Главный баннер страницы события</span><input type="file" name="eventImage" accept="image/png,image/jpeg"></label><label><span>Баннер карточки в календаре</span><input type="file" name="calendarImage" accept="image/png,image/jpeg"></label></div><div class="create-event-stage-images" data-stage-image-section><div class="create-event-stages__head"><div><span class="eyebrow eyebrow--red">Stage banners</span><h3>Изображения этапов</h3></div></div><div class="create-event-grid" data-stage-image-list></div></div>
+            <p class="create-event-hint">Если конфигурация трека не загружена, в карточке события будет указано: «Конфигурация трека не найдена.»</p>
+          </fieldset>
+
+          <fieldset class="create-event-view" data-create-view="team" hidden>
+            <legend>Команда организаторов</legend>
+            <div class="create-event-grid"><label><span>Оформление события</span><select name="teamMode" data-event-team-mode><option value="saved">Использовать мою команду</option><option value="custom">Настроить отдельно для события</option></select></label></div>
+            <article class="create-team-preview" data-existing-team-preview><div class="create-team-preview__banner" data-create-team-banner><div class="create-team-preview__logo" data-create-team-logo><span>RM</span></div><div><small>Сохраненная команда</small><h3 data-create-team-name>Команда не настроена</h3><p>Данные берутся из вкладки «Команда» личного кабинета.</p></div></div></article>
+            <div class="create-event-team-custom" data-custom-team-fields hidden><div class="create-event-grid"><label><span>Название команды</span><input type="text" name="customOrganizationName" placeholder="Название организации"></label><label><span>Цвет команды</span><input type="color" name="customOrganizationColor" value="#e10600"></label><label><span>Логотип команды</span><input type="file" name="customOrganizationLogo" accept="image/png,image/jpeg"></label><label><span>Баннер команды</span><input type="file" name="customOrganizationBanner" accept="image/png,image/jpeg"></label></div><p class="create-event-hint">Отдельное оформление применяется только к этому событию и не изменяет команду в личном кабинете.</p></div>
+          </fieldset>
+
+          <div class="create-event-actions"><button class="button button--red" type="submit">Создать <span data-create-submit-label>чемпионат</span> <span>→</span></button><span data-create-event-message hidden></span></div>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

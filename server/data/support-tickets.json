@@ -1,0 +1,327 @@
+{
+  "tickets": [
+    {
+      "id": "ticket-2d926af37e0",
+      "userId": "drp-abramov-001",
+      "name": "Arseniy",
+      "email": "patriotgym888@gmail.com",
+      "subject": "\u0411\u0430\u0433",
+      "category": "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430",
+      "message": "\u041F\u0440\u043E\u0431\u043B\u0435\u043C\u0430 \u0441 big menu",
+      "status": "\u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u043D\u043E\u0435",
+      "createdAtUtc": "2026-06-15T16:08:48.18754Z",
+      "updatedAtUtc": "2026-06-15T16:52:22.345519Z",
+      "answers": [
+        {
+          "id": "answer-07e68fb6308",
+          "adminUserId": "support-admin-001",
+          "message": "\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C! \u041C\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435. \u0412 \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u0435 \u0432\u0440\u0435\u043C\u044F \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u043C \u043D\u0435\u0434\u043E\u0447\u0435\u0442\u044B!",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003EArseniy\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C! \u041C\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435. \u0412 \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u0435 \u0432\u0440\u0435\u043C\u044F \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u043C \u043D\u0435\u0434\u043E\u0447\u0435\u0442\u044B!\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "",
+          "createdAtUtc": "2026-06-15T16:10:05.112551Z"
+        },
+        {
+          "id": "answer-299b110e71d",
+          "adminUserId": "support-admin-001",
+          "message": "\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003EArseniy\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "",
+          "createdAtUtc": "2026-06-15T16:52:19.019684Z"
+        },
+        {
+          "id": "answer-3e12888c8f5",
+          "adminUserId": "support-admin-001",
+          "message": "\u0443",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003EArseniy\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u0443\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "",
+          "createdAtUtc": "2026-06-15T16:52:22.345484Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-8ce35c0b3d9",
+      "userId": "organizer-001",
+      "name": "Arseniy",
+      "email": "patriotgym888@gmail.com",
+      "subject": "\u0411\u0430\u0433-\u0440\u0435\u043F\u043E\u0440\u0442",
+      "category": "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430",
+      "message": "\u041D\u0435 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F big menu",
+      "status": "\u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u043D\u043E\u0435",
+      "createdAtUtc": "2026-06-15T16:30:54.089775Z",
+      "updatedAtUtc": "2026-06-15T16:31:41.918798Z",
+      "answers": [
+        {
+          "id": "answer-59d7d155b4e",
+          "adminUserId": "support-admin-001",
+          "message": "\u041E\u0436\u0438\u0434\u0430\u0435\u043C\u043E",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003EArseniy\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433-\u0440\u0435\u043F\u043E\u0440\u0442\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u041E\u0436\u0438\u0434\u0430\u0435\u043C\u043E\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "",
+          "createdAtUtc": "2026-06-15T16:31:41.9187Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-dde783920e3",
+      "userId": "drp-abramov-001",
+      "name": "\u0410\u043B\u0435\u043A\u0441\u0435\u0439",
+      "email": "patriotgym888@gmail.com",
+      "subject": "\u0411\u0430\u0433",
+      "category": "\u0420\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u044B \u0438 \u0442\u0430\u0431\u043B\u0438\u0446\u044B",
+      "message": "23",
+      "status": "\u041E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E",
+      "createdAtUtc": "2026-06-15T16:43:14.394299Z",
+      "updatedAtUtc": "2026-06-15T16:44:57.910636Z",
+      "answers": [
+        {
+          "id": "answer-ef5aa7dc7ba",
+          "adminUserId": "support-admin-001",
+          "message": "\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u043B\u0435\u043A\u0441\u0435\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "",
+          "createdAtUtc": "2026-06-15T16:44:57.910612Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-04725fcde98",
+      "userId": "drp-abramov-001",
+      "name": "\u0410\u043B\u0435\u043A\u0441\u0435\u0439",
+      "email": "patriotgym888@gmail.com",
+      "subject": "\u0411\u0430\u0433-\u0440\u0435\u043F\u043E\u0440\u0442",
+      "category": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+      "message": "\u041D\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+      "status": "\u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u043D\u043E\u0435",
+      "createdAtUtc": "2026-06-15T16:43:41.593634Z",
+      "updatedAtUtc": "2026-06-15T16:45:04.842385Z",
+      "answers": [
+        {
+          "id": "answer-8f18f2ca219",
+          "adminUserId": "support-admin-001",
+          "message": "\u0418\u0441\u043F\u0440\u0430\u0432\u0438\u043C!",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u043B\u0435\u043A\u0441\u0435\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433-\u0440\u0435\u043F\u043E\u0440\u0442\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u0418\u0441\u043F\u0440\u0430\u0432\u0438\u043C!\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "",
+          "createdAtUtc": "2026-06-15T16:45:04.842361Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-3d68e8f08e1",
+      "userId": "organizer-001",
+      "name": "\u0410\u0440\u0441\u0435\u043D\u0438\u0439",
+      "email": "patriotgym888@gmail.com",
+      "subject": "\u0411\u0430\u0433",
+      "category": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+      "message": "234234",
+      "status": "\u041E\u0436\u0438\u0434\u0430\u043D\u0438\u0435",
+      "createdAtUtc": "2026-06-19T07:25:36.615146Z",
+      "updatedAtUtc": null,
+      "answers": []
+    },
+    {
+      "id": "ticket-787f5db4739",
+      "userId": "judge-001",
+      "name": "\u0410\u0440\u0441\u0435\u043D\u0438\u0439",
+      "email": "a.volfovich07g@gmail.com",
+      "subject": "\u0422\u0435\u0441\u0442",
+      "category": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+      "message": "123123",
+      "status": "\u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u043D\u043E\u0435",
+      "createdAtUtc": "2026-06-27T07:18:44.143605Z",
+      "updatedAtUtc": "2026-06-27T16:15:18.728176Z",
+      "answers": [
+        {
+          "id": "answer-6b8e633b54e",
+          "adminUserId": "support-admin-001",
+          "message": "we",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u0440\u0441\u0435\u043D\u0438\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0422\u0435\u0441\u0442\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003Ewe\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-27T16:15:18.727848Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-6a4573c9c19",
+      "userId": "drp-abramov-001",
+      "name": "Abramov",
+      "email": "fsdgk@gmail.com",
+      "subject": "\u0422\u0435\u0441\u0442",
+      "category": "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430",
+      "message": "123123",
+      "status": "\u041E\u0436\u0438\u0434\u0430\u043D\u0438\u0435",
+      "createdAtUtc": "2026-06-27T08:30:03.333029Z",
+      "updatedAtUtc": null,
+      "answers": []
+    },
+    {
+      "id": "ticket-0a7d2cbe429",
+      "userId": "user-76f02f33",
+      "name": "\u0410\u0440\u0441\u0435\u043D\u0438\u0439",
+      "email": "a.volfovich07g@gmail.com",
+      "subject": "\u0411\u0430\u0433",
+      "category": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+      "message": "123123",
+      "status": "\u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u043D\u043E\u0435",
+      "createdAtUtc": "2026-06-27T16:12:34.94394Z",
+      "updatedAtUtc": "2026-06-27T16:16:40.049969Z",
+      "answers": [
+        {
+          "id": "answer-1597dfd8d29",
+          "adminUserId": "support-admin-001",
+          "message": "q",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u0440\u0441\u0435\u043D\u0438\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003Eq\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-27T16:13:36.987172Z"
+        },
+        {
+          "id": "answer-1ef110b5e5a",
+          "adminUserId": "support-admin-001",
+          "message": "qwe",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u0440\u0441\u0435\u043D\u0438\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003Eqwe\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-27T16:15:15.195918Z"
+        },
+        {
+          "id": "answer-b9e4e52a8ad",
+          "adminUserId": "support-admin-001",
+          "message": "\u043A",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u0440\u0441\u0435\u043D\u0438\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u043A\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-27T16:16:20.908197Z"
+        },
+        {
+          "id": "answer-cb6739dbd92",
+          "adminUserId": "support-admin-001",
+          "message": "\u0443",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u0440\u0441\u0435\u043D\u0438\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u0443\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-27T16:16:31.546551Z"
+        },
+        {
+          "id": "answer-ba86e26f8d5",
+          "adminUserId": "support-admin-001",
+          "message": "\u0430",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u0440\u0441\u0435\u043D\u0438\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u0430\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-27T16:16:40.049542Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-95c7305e940",
+      "userId": "judge-global",
+      "name": "Stas",
+      "email": "test@gmail.com",
+      "subject": "\u0422\u0435\u0441\u0442\u043E\u0432\u0430\u044F \u0432\u0435\u0442\u043A\u0430",
+      "category": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+      "message": "\u0422\u0435\u0441\u0442",
+      "status": "\u041E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E",
+      "createdAtUtc": "2026-06-28T16:44:34.540133Z",
+      "updatedAtUtc": "2026-06-28T16:45:25.517945Z",
+      "answers": [
+        {
+          "id": "answer-bf5c70711bf",
+          "adminUserId": "support-admin-001",
+          "message": "\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003EStas\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0422\u0435\u0441\u0442\u043E\u0432\u0430\u044F \u0432\u0435\u0442\u043A\u0430\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-28T16:45:25.516799Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-f56b6c02fe6",
+      "userId": "organizer-global",
+      "name": "Ars",
+      "email": "test123@gmail.com",
+      "subject": "\u0411\u0430\u0433",
+      "category": "\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u043D\u0430 \u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+      "message": "234",
+      "status": "\u041E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E",
+      "createdAtUtc": "2026-06-29T12:58:10.1383Z",
+      "updatedAtUtc": "2026-06-29T12:58:38.948988Z",
+      "answers": [
+        {
+          "id": "answer-b1a231bf0dd",
+          "adminUserId": "support-admin-001",
+          "message": "\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003EArs\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u041E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043A\u043B\u043E\u043D\u0435\u043D\u043E \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0438\u043C \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C.\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-29T12:58:38.948019Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-10b942e5bf2",
+      "userId": "judge-global",
+      "name": "Ashab",
+      "email": "ashab@gmail.com",
+      "subject": "\u0411\u0430\u0433",
+      "category": "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430",
+      "message": "\u041A\u0430\u043A \u0441\u043E\u0437\u0434\u0430\u0442\u044C \u043A\u043E\u043C\u0430\u043D\u0434\u0443",
+      "status": "\u041E\u0436\u0438\u0434\u0430\u043D\u0438\u0435",
+      "createdAtUtc": "2026-06-29T19:18:46.926142Z",
+      "updatedAtUtc": null,
+      "answers": []
+    },
+    {
+      "id": "ticket-ca3198f0d66",
+      "userId": "user-d66c1ff0",
+      "name": "\u0421\u0442\u0430\u043D\u0438\u0441\u043B\u0430\u0432",
+      "email": "abdurozik@gmail.com",
+      "subject": "\u0411\u0430\u0433",
+      "category": "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430",
+      "message": "\u041D\u0435 \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442\u0441\u044F \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430",
+      "status": "\u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u043D\u043E\u0435",
+      "createdAtUtc": "2026-06-29T19:36:04.9663Z",
+      "updatedAtUtc": "2026-06-29T19:36:47.158574Z",
+      "answers": [
+        {
+          "id": "answer-4c8e011fd8b",
+          "adminUserId": "support-admin-001",
+          "message": "\u0421\u043A\u043E\u0440\u043E \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u043C",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0421\u0442\u0430\u043D\u0438\u0441\u043B\u0430\u0432\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u0421\u043A\u043E\u0440\u043E \u0438\u0441\u043F\u0440\u0430\u0432\u0438\u043C\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-29T19:36:47.157438Z"
+        }
+      ]
+    },
+    {
+      "id": "ticket-b6fb6389d82",
+      "userId": "user-76f02f33",
+      "name": "\u0410\u0440\u0441\u0435\u043D\u0438\u0439",
+      "email": "a.volfovich07g@gmail.com",
+      "subject": "\u0411\u0430\u0433-\u0440\u0435\u043F\u043E\u0440\u0442",
+      "category": "\u0422\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430",
+      "message": "\u041D\u0435 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0432\u0438\u0434\u0435\u043E",
+      "status": "\u0420\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u043D\u043E\u0435",
+      "createdAtUtc": "2026-06-30T06:20:53.155514Z",
+      "updatedAtUtc": "2026-06-30T06:21:49.346728Z",
+      "answers": [
+        {
+          "id": "answer-a6b46e9661a",
+          "adminUserId": "support-admin-001",
+          "message": "\u0418\u0441\u043F\u0440\u0430\u0432\u0438\u043C \u0432 \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u0435 \u0432\u0440\u0435\u043C\u044F",
+          "emailHtml": "\u003C!doctype html\u003E\n\u003Chtml lang=\u0022ru\u0022\u003E\n\u003Cbody style=\u0022margin:0;background:#f4f4f6;font-family:Arial,sans-serif;color:#15161b;\u0022\u003E\n  \u003Cdiv style=\u0022max-width:760px;margin:0 auto;padding:36px 18px;\u0022\u003E\n    \u003Cdiv style=\u0022overflow:hidden;border-radius:0 0 18px 18px;background:#111216;border-bottom:4px solid #e10600;\u0022\u003E\n      \u003Cdiv style=\u0022padding:54px 28px;text-align:center;background:radial-gradient(circle at center,#7b0603 0,#17181d 44%,#101116 100%);\u0022\u003E\n        \u003Cstrong style=\u0022font-size:34px;letter-spacing:.08em;color:#fff;\u0022\u003ERACEMANAGER \u003Cspan style=\u0022display:inline-block;margin-left:10px;padding:8px 14px;border-radius:10px;background:#e10600;\u0022\u003EID\u003C/span\u003E\u003C/strong\u003E\n      \u003C/div\u003E\n    \u003C/div\u003E\n    \u003Cdiv style=\u0022padding:48px 36px;background:#fff;\u0022\u003E\n      \u003Ch1 style=\u0022margin:0 0 18px;font-size:34px;line-height:1.15;\u0022\u003E\u041E\u0442\u0432\u0435\u0442 \u0442\u0435\u0445\u043D\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0438\u003C/h1\u003E\n      \u003Cp style=\u0022margin:0 0 22px;font-size:16px;line-height:1.6;color:#656974;\u0022\u003E\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u003Cb\u003E\u0410\u0440\u0441\u0435\u043D\u0438\u0439\u003C/b\u003E. \u041C\u044B \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043B\u0438 \u0432\u0430\u0448\u0435 \u043E\u0431\u0440\u0430\u0449\u0435\u043D\u0438\u0435: \u003Cb\u003E\u0411\u0430\u0433-\u0440\u0435\u043F\u043E\u0440\u0442\u003C/b\u003E.\u003C/p\u003E\n      \u003Cdiv style=\u0022padding:22px;border-left:4px solid #e10600;background:#f6f7f9;font-size:16px;line-height:1.7;\u0022\u003E\u0418\u0441\u043F\u0440\u0430\u0432\u0438\u043C \u0432 \u0431\u043B\u0438\u0436\u0430\u0439\u0448\u0435\u0435 \u0432\u0440\u0435\u043C\u044F\u003C/div\u003E\n      \u003Cp style=\u0022margin:28px 0 0;color:#858994;font-size:13px;\u0022\u003E\u0421 \u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435\u043C, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 RaceManager.\u003C/p\u003E\n    \u003C/div\u003E\n  \u003C/div\u003E\n\u003C/body\u003E\n\u003C/html\u003E",
+          "emailDeliveryStatus": "\u041D\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E",
+          "emailDeliveryError": "SMTP \u043D\u0435 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D. \u0423\u043A\u0430\u0436\u0438\u0442\u0435 Email:Smtp \u0432 appsettings.Development.json \u0438\u043B\u0438 \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0445 \u043E\u043A\u0440\u0443\u0436\u0435\u043D\u0438\u044F.",
+          "createdAtUtc": "2026-06-30T06:21:49.345098Z"
+        }
+      ]
+    }
+  ]
+}

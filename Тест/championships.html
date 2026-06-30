@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Чемпионаты | RaceManager</title>
+  <meta name="description" content="Активные автоспортивные чемпионаты, серии и расписание трансляций RaceManager.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-top">
+      <div class="container header-top__inner">
+        <p>Официальная платформа чемпионатов</p>
+        <div class="header-top__links"><a href="#">Организаторам</a><a href="#">Регламент</a><a href="#">RU <span>⌄</span></a></div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container header-main__inner">
+        <a class="logo" href="index.html" aria-label="RaceManager"><span class="logo__mark">R</span><span class="logo__text">RACE<span>MANAGER</span></span></a>
+        <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <a href="index.html">Главная</a><a class="active" href="championships.html">Чемпионаты</a><a href="calendar.html">Календарь</a><a href="teams.html">Команды</a><a href="media.html">Медиа</a>
+        </nav>
+        <div class="header-actions"><button class="icon-button" type="button" aria-label="Поиск"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 5 5"></path></svg></button><a class="button button--white button--small" href="login.html">Войти</a></div>
+      </div>
+    </div>
+  </header>
+  <div class="teams-mega" aria-label="Команды RaceManager">
+    <div class="container teams-mega__inner">
+      <a class="team-preview team-preview--betera" href="BeteraTeam.html">
+        <div class="team-preview__head"><span><img src="public/BeteraLogo.png" alt=""></span><strong>Betera Drift</strong></div>
+        <img class="team-preview__car" src="public/BeteraCarsNormalized.png" alt="Автомобиль Betera Drift">
+      </a>
+      <a class="team-preview team-preview--drp" href="DriftRacingParkTeam.html">
+        <div class="team-preview__head"><span><img src="public/DriftRacingParkLogo.png" alt=""></span><strong>Drift Racing Park</strong></div>
+        <img class="team-preview__car" src="public/DritRacingParkCarsLogo.png" alt="Автомобиль Drift Racing Park">
+      </a>
+      <a class="team-preview team-preview--blockchain" href="BlockchainSportsTeam.html">
+        <div class="team-preview__head"><span><img src="public/BlockchainLogo.png" alt=""></span><strong>Blockchain Sports</strong></div>
+        <img class="team-preview__car" src="public/BlockchainCarsNormalized.png" alt="Автомобиль Blockchain Sports">
+      </a>
+      <a class="team-preview team-preview--lowbudget" href="LowBudgetTeam.html">
+        <div class="team-preview__head"><span><img src="public/LowBudgetLogo.png" alt=""></span><strong>Low Budget Drift</strong></div>
+        <img class="team-preview__car" src="public/LowBudgetCarsNormalized.png" alt="Автомобиль Low Budget Drift">
+      </a>
+    </div>
+  </div>
+
+
+  <main>
+    <section class="championships-hero">
+      <div class="container championships-hero__inner">
+        <div>
+          <span class="eyebrow eyebrow--red">RaceManager Series</span>
+          <h1>Чемпионаты<br><span>сезона 2026</span></h1>
+          <p>Выбирайте дисциплину, следите за этапами и регистрируйтесь на соревнования от организаторов со всей страны.</p>
+        </div>
+        <div class="championships-hero__stats">
+          <div><b>05</b><span>активных серий</span></div><div><b>20</b><span>этапов сезона</span></div><div><b>148</b><span>зарегистрированных пилотов</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light championships-section">
+      <div class="container">
+        <div class="section-heading championships-heading">
+          <div><span class="eyebrow eyebrow--red">Мульти-организаторская сетка</span><h2>Активные серии</h2></div>
+          <p>Подберите чемпионат по своей дисциплине</p>
+        </div>
+        <div class="discipline-filters" aria-label="Фильтр чемпионатов">
+          <button class="discipline-filter is-active" type="button" data-discipline-filter="all" aria-pressed="true"><span class="discipline-filter__logo discipline-filter__logo--all">RM</span><span>Все дисциплины</span></button>
+          <button class="discipline-filter" type="button" data-discipline-filter="drift" aria-pressed="false"><img class="discipline-filter__logo" src="public/logoDrift.png" alt=""><span>Дрифт</span></button>
+          <button class="discipline-filter" type="button" data-discipline-filter="drag" aria-pressed="false"><img class="discipline-filter__logo" src="public/DragLogo.png" alt=""><span>Дрэг-Рейсинг</span></button>
+          <button class="discipline-filter" type="button" data-discipline-filter="circuit" aria-pressed="false"><img class="discipline-filter__logo" src="public/logoTime-Attack.png" alt=""><span>Time-Attack</span></button>
+        </div>
+
+        <div class="championship-grid">
+          <article class="championship-card championship-card--betera" data-discipline="drift"><div class="championship-card__top"><span class="championship-card__type">Дрифт</span><span class="championship-card__status"><i></i> Идет сезон</span></div><div class="championship-card__brand"><span>BETERA</span><strong>DRIFT 2026</strong><small>DRIFT CHAMPIONSHIP</small></div><div class="championship-card__info"><div><b>ГРАН-ПРИ</b><span>следующее событие</span></div><div><b>27–28 ИЮН</b><span>Гродно</span></div></div><div class="championship-card__footer"><p>5 событий · Дрифт</p><a href="BeteraDriftChampionship.html">Открыть серию <span>→</span></a></div></article>
+          <article class="championship-card championship-card--rt championship-card--gorilla" data-discipline="drift"><div class="championship-card__top"><span class="championship-card__type">Дрифт · PRO2</span><span class="championship-card__status"><i></i> Регистрация</span></div><div class="championship-card__brand"><span>GORILLA DRIFT</span><strong>PRO 2</strong><small>TOP32 DRIFT SERIES</small></div><div class="championship-card__info"><div><b>2 ЭТАП</b><span>следующий этап</span></div><div><b>07 ИЮН</b><span>Пинск</span></div></div><div class="championship-card__footer"><p>Категория PRO2 · TOP32</p><a href="GorillaDriftChampionship.html">Открыть серию <span>→</span></a></div></article>
+          <article class="championship-card championship-card--drag402" data-discipline="drag"><div class="championship-card__top"><span class="championship-card__type">Дрэг-Рейсинг</span><span class="championship-card__status championship-card__status--muted">1 этап отменен</span></div><div class="championship-card__brand"><span>DRAG402 ЧРБ</span><strong>КУБОК ГОРОДОВ</strong><small>DRAG RACING CHAMPIONSHIP</small></div><div class="championship-card__info"><div><b>2 / 4</b><span>следующий этап</span></div><div><b>20 ИЮН</b><span>Могилев</span></div></div><div class="championship-card__footer"><p>4 этапа · Дрэг-Рейсинг</p><a href="Drag402Championship.html">Открыть серию <span>→</span></a></div></article>
+          <article class="championship-card championship-card--uracing" data-discipline="circuit"><div class="championship-card__top"><span class="championship-card__type">Тайм-Аттак</span><span class="championship-card__status"><i></i> Идет сезон</span></div><div class="championship-card__brand"><span>URACING</span><strong>RACE WARS 2026</strong><small>TIME ATTACK SERIES</small></div><div class="championship-card__info"><div><b>2 / 6</b><span>следующий этап</span></div><div><b>07 ИЮН</b><span>Стайки</span></div></div><div class="championship-card__footer"><p>6 этапов · Тайм-Аттак</p><a href="UracingChampionship.html">Открыть серию <span>→</span></a></div></article>
+        </div>
+        <p class="championship-empty" hidden>В этой дисциплине пока нет активных чемпионатов.</p>
+      </div>
+    </section>
+
+    <section class="section section--dark tv-guide">
+      <div class="container">
+        <div class="section-heading section-heading--dark tv-guide__heading">
+          <div><span class="eyebrow eyebrow--red">Live & Upcoming</span><h2>ТВ-гид уикенда</h2></div>
+          <p>Время показано для вашего часового пояса: <strong data-timezone>UTC</strong></p>
+        </div>
+        <div class="tv-guide__days"><button class="is-active" type="button">Сб, 6 июня</button><button type="button">Вс, 7 июня</button></div>
+        <div class="tv-schedule">
+          <article class="tv-event"><time data-utc="2026-06-06T11:00:00Z">14:00</time><div class="tv-event__brand tv-event__brand--uracing"><img src="public/UracingLogo.png" alt="URacing"></div><div><span>M FEST Track Day · Стайки</span><h3>Тренировочная сессия</h3></div><b>СКОРО</b><a href="calendar.html">Подробнее <span>→</span></a></article>
+          <article class="tv-event"><time data-utc="2026-06-07T08:00:00Z">11:00</time><div class="tv-event__brand tv-event__brand--rt"><img src="public/22RTLogo.png" alt="Gorilla Drift"></div><div><span>Gorilla Drift Pro 2 · Пинск</span><h3>2 этап · Сетка TOP32</h3></div><b>СКОРО</b><a href="calendar.html">Подробнее <span>→</span></a></article>
+          <article class="tv-event"><time data-utc="2026-06-07T09:00:00Z">12:00</time><div class="tv-event__brand tv-event__brand--uracing"><img src="public/UracingLogo.png" alt="URacing"></div><div><span>URacing Race Wars · Стайки</span><h3>2 этап Тайм-Аттак</h3></div><b>СКОРО</b><a href="calendar.html">Подробнее <span>→</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta"><div class="container cta__inner"><div><span class="eyebrow">Для организаторов</span><h2>Создайте свой чемпионат</h2><p>Настройте этапы, регламент, регистрацию пилотов и публикацию результатов в едином пространстве RaceManager.</p></div><a class="button button--white" href="#">Создать чемпионат <span>→</span></a></div></section>
+
+    <section class="partners-section" aria-labelledby="championships-partners-title">
+      <div class="container">
+        <div class="partners-section__heading"><span class="eyebrow eyebrow--red">RaceManager Partners</span><h2 id="championships-partners-title">Партнеры чемпионата</h2></div>
+        <div class="partners-grid">
+          <a class="partner-card" href="https://www.instagram.com/22rt_trackday/" target="_blank" rel="noopener noreferrer" aria-label="22RT"><img src="public/22RT.png" alt="22RT"></a>
+          <a class="partner-card" href="https://applejam.by/" target="_blank" rel="noopener noreferrer" aria-label="Apple Jam"><img src="public/applejam.png" alt="Apple Jam"></a>
+          <a class="partner-card" href="https://www.instagram.com/aqualab_minsk/" target="_blank" rel="noopener noreferrer" aria-label="Aqualab"><img src="public/aqualab.png" alt="Aqualab"></a>
+          <a class="partner-card" href="https://av.by/" target="_blank" rel="noopener noreferrer" aria-label="Автобизнес"><img src="public/avby.png" alt="Автобизнес"></a>
+          <a class="partner-card" href="https://pm.by/" target="_blank" rel="noopener noreferrer" aria-label="Betera"><img src="public/betera.png" alt="Betera"></a>
+          <a class="partner-card" href="https://majestic-rp.ru/" target="_blank" rel="noopener noreferrer" aria-label="Majestic"><img src="public/Majestic.png" alt="Majestic"></a>
+          <a class="partner-card" href="https://racing.by/" target="_blank" rel="noopener noreferrer" aria-label="Racing.by"><img src="public/racingby.png" alt="Racing.by"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main"><div class="footer-brand"><a class="logo logo--footer" href="index.html"><span class="logo__mark">R</span><span class="logo__text">RACE<span>MANAGER</span></span></a><div class="footer-socials" aria-label="Социальные сети"><a href="#" aria-label="YouTube"><img class="footer-socials__icon footer-socials__icon--youtube" src="public/youtube.png" alt=""></a><a href="#" aria-label="Instagram"><img class="footer-socials__icon" src="public/instagram.png" alt=""></a><a href="#" aria-label="Facebook"><img class="footer-socials__icon footer-socials__icon--facebook" src="public/facebook.png" alt=""></a><a href="#" aria-label="X"><img class="footer-socials__icon" src="public/x.png" alt=""></a></div></div><div class="footer-nav"><div><h4>RaceManager</h4><a href="championships.html">Чемпионаты</a><a href="calendar.html">Календарь</a><a href="teams.html">Команды</a></div><div><h4>Медиа</h4><a href="media.html">Новости</a><a href="media.html">Видео</a><a href="media.html">Фотогалерея</a></div><div><h4>Участникам</h4><a href="#">Регистрация</a><a href="#">Регламент</a><a href="#">Поддержка</a></div></div></div>
+    <div class="container footer-bottom"><span>© 2026 RaceManager</span><span>Платформа автоспортивных чемпионатов</span></div>
+  </footer>
+</body>
+</html>

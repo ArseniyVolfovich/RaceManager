@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npm run server:dev",
+    "dev:split": "concurrently -k -n API,WEB -c red,cyan \"npm run server:dev\" \"npm run client:dev\"",
+    "server:build": "dotnet build server/RaceManager.sln",
+    "server:dev": "npm run server:build && dotnet server/RaceManager.Api/bin/Debug/net9.0/RaceManager.Api.dll --urls http://127.0.0.1:5088",
+    "client:dev": "npm --prefix client run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "login": "driver.demo",
+      "email": "test@gmail.com",
+      "password": "Login123$",
+      "role": "Пользователь",
+      "profile": {
+        "lastName": "Демо",
+        "firstName": "Пилот",
+        "middleName": "Пользователь",
+        "phone": "+375 29 000-00-01",
+        "birthDate": "2000-01-01",
+        "car": "BMW E36"
+      },
+      "statistics": {
+        "ranking": 1,
+        "points": 194,
+        "races": 8,
+        "wins": 3,
+        "podiums": 6,
+        "qualifications": 8,
+        "bestResult": "1 место",
+        "finishedEvents": 8
+      },
+      "championships": [
+        {
+          "name": "Betera Drift 2026",
+          "discipline": "Дрифт",
+          "season": "2026",
+          "position": 1,
+          "points": 194,
+          "events": 3,
+          "status": "Активный сезон",
+          "color": "#00a651"
+        },
+        {
+          "name": "Belarus Drift Championship",
+          "discipline": "Дрифт",
+          "season": "2025",
+          "position": 4,
+          "points": 126,
+          "events": 5,
+          "status": "Завершён",
+          "color": "#e10600"
+        }
+      ],
+      "team": {
+        "name": "Betera Drift",
+        "role": "Пилот команды",
+        "points": 249,
+        "position": 2,
+        "logo": "public/BeteraLogo.png",
+        "page": "BeteraTeam.html",
+        "color": "#00a651"
+      },
+      "vehicles": [],
+      "applications": [],
+      "avatar": ""
+    },
+    {
+      "id": "judge-001",
+      "login": "judge.demo",
+      "email": "judge@racemanager.test",
+      "password": "judge123",
+      "role": "Судья",
+      "profile": {
+        "lastName": "Демо",
+        "firstName": "Судья",
+        "middleName": "Судейский",
+        "phone": "+375 29 000-00-02",
+        "birthDate": "1990-01-01",
+        "car": ""
+      },
+      "statistics": {
+        "ranking": 1,
+        "points": 0,
+        "races": 0,
+        "wins": 0,
+        "podiums": 0,
+        "qualifications": 0,
+        "bestResult": "—",
+        "finishedEvents": 0
+      },
+      "championships": [],
+      "team": null,
+      "vehicles": [],
+      "applications": [],
+      "avatar": ""
+    },
+    {
+      "id": "organizer-001",
+      "login": "organizer.demo",
+      "email": "organizer@racemanager.test",
+      "password": "organizer123",
+      "role": "Организатор",
+      "profile": {
+        "lastName": "Демо",
+        "firstName": "Организатор",
+        "middleName": "Организаторский",
+        "phone": "+375 29 000-00-03",
+        "birthDate": "1985-01-01",
+        "car": ""
+      },
+      "statistics": {
+        "ranking": 1,
+        "points": 0,
+        "races": 0,
+        "wins": 0,
+        "podiums": 0,
+        "qualifications": 0,
+        "bestResult": "—",
+        "finishedEvents": 0
+      },
+      "championships": [],
+      "team": null,
+      "vehicles": [],
+      "applications": [],
+      "avatar": ""
+    },
+    {
+      "id": "organizer-002",
+      "login": "race.organizer",
+      "email": "race.organizer@racemanager.test",
+      "password": "Organizer123",
+      "role": "Организатор",
+      "profile": {
+        "lastName": "Ковалев",
+        "firstName": "Андрей",
+        "middleName": "Сергеевич",
+        "phone": "+375 29 100-20-30",
+        "birthDate": "1988-04-12",
+        "car": ""
+      },
+      "statistics": {
+        "ranking": 1,
+        "points": 0,
+        "races": 0,
+        "wins": 0,
+        "podiums": 0,
+        "qualifications": 0,
+        "bestResult": "—",
+        "finishedEvents": 0
+      },
+      "championships": [],
+      "team": null,
+      "vehicles": [],
+      "applications": [],
+      "avatar": ""
+    },
+    {
+      "id": "judge-002",
+      "login": "race.judge",
+      "email": "race.judge@racemanager.test",
+      "password": "Judge123",
+      "role": "Судья",
+      "profile": {
+        "lastName": "Морозов",
+        "firstName": "Дмитрий",
+        "middleName": "Игоревич",
+        "phone": "+375 29 200-30-40",
+        "birthDate": "1992-09-18",
+        "car": ""
+      },
+      "statistics": {
+        "ranking": 1,
+        "points": 0,
+        "races": 0,
+        "wins": 0,
+        "podiums": 0,
+        "qualifications": 0,
+        "bestResult": "—",
+        "finishedEvents": 0
+      },
+      "championships": [],
+      "team": null,
+      "vehicles": [],
+      "applications": [],
+      "avatar": ""
+    }
+  ]
+}

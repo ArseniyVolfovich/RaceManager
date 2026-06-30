@@ -1,0 +1,25 @@
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/bin/Debug/net9.0/RaceManager.Domain.deps.json
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/bin/Debug/net9.0/RaceManager.Domain.dll
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/bin/Debug/net9.0/RaceManager.Domain.pdb
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.AssemblyInfoInputs.cache
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.AssemblyInfo.cs
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.csproj.CoreCompileInputs.cache
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.dll
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/refint/RaceManager.Domain.dll
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.pdb
+/Applications/Проект "Приложение по организации гонок и чемпионатов"/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/ref/RaceManager.Domain.dll
+/tmp/racemanager-test-bin/RaceManager.Domain.deps.json
+/tmp/racemanager-test-bin/RaceManager.Domain.dll
+/tmp/racemanager-test-bin/RaceManager.Domain.pdb
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/bin/Debug/net9.0/RaceManager.Domain.deps.json
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/bin/Debug/net9.0/RaceManager.Domain.dll
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/bin/Debug/net9.0/RaceManager.Domain.pdb
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.AssemblyInfoInputs.cache
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.AssemblyInfo.cs
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.csproj.CoreCompileInputs.cache
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.dll
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/refint/RaceManager.Domain.dll
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/RaceManager.Domain.pdb
+/Applications/Проект Приложение по организации гонок и чемпионатов/КПиЯП/Программа/Тестовая версия Codex/RaceManager/server/RaceManager.Domain/obj/Debug/net9.0/ref/RaceManager.Domain.dll
